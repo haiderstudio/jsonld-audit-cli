@@ -1,0 +1,22 @@
+JSON-LD + Open Graph + llms.txt audit
+Page: examples/knife-guide.html
+
+PASS  jsonld-present         1 JSON-LD block(s) found
+PASS  jsonld-valid           1 block(s) parse as JSON
+PASS  jsonld-context         every block has a schema.org @context
+PASS  jsonld-type            every entity has @type
+PASS  jsonld-known-type      type(s): HowTo
+PASS  jsonld-required-fields usual fields are present
+PASS  og:title               How to sharpen a kitchen knife
+PASS  og:description         A short guide to sharpening a kitchen knife with a whetstone.
+PASS  og:type                article
+PASS  og:url                 https://example.com/knife-guide.html
+PASS  og:image               https://example.com/images/knife.jpg
+PASS  og-image-absolute      og:image is an absolute URL
+PASS  og-title-matches       og:title matches <title>
+PASS  llms-present           read from examples/good-llms.txt
+PASS  llms-heading           llms.txt has a Markdown heading
+PASS  llms-links             3 link(s) in llms.txt
+PASS  llms-mentions-page     llms.txt mentions this page
+
+17 passed, 0 failed, 0 warned, 0 skipped

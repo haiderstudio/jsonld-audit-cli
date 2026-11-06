@@ -1,0 +1,12 @@
+# Example site
+
+A small site about kitchen skills.
+
+## Guides
+
+- [How to sharpen a kitchen knife](https://example.com/knife-guide.html)
+- [How to store knives safely](https://example.com/knife-storage.html)
+
+## About
+
+- [About this site](https://example.com/about.html)
